@@ -1,10 +1,10 @@
 # Honukai theme and colors for Oh My ZSH and iTerm
 
-oringin :
+origin :
 ![](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.png)
 
 
-add now:
+and now:
 ![](https://github.com/darcylee/honukai-iterm-zsh/blob/master/honukai_clear.png?raw=true)
 
 [See how it looks with blur and transparency](https://v.usetapes.com/SDGzCBkHh4) (video).
