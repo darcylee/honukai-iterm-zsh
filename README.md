@@ -5,7 +5,10 @@ origin :
 
 
 and now:
-![](https://github.com/darcylee/honukai-iterm-zsh/blob/master/honukai_clear.png?raw=true)
+![](https://raw.githubusercontent.com/darcylee/honukai-iterm-zsh/master/honukai_clear.png)
+
+use with a light background:
+![](https://raw.githubusercontent.com/darcylee/honukai-iterm-zsh/master/honukai_clear_light.png)
 
 [See how it looks with blur and transparency](https://v.usetapes.com/SDGzCBkHh4) (video).
 
