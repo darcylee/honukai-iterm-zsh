@@ -29,13 +29,14 @@ ZSH_THEME_GIT_PROMPT_DIRTY="${YS_VCS_PROMPT_DIRTY}"
 ZSH_THEME_GIT_PROMPT_CLEAN="${YS_VCS_PROMPT_CLEAN}"
 
 # Prompt format: \n # USER at MACHINE in DIRECTORY on git:BRANCH STATE [TIME] \n $
+# [%D{%a %b %d %Y}  %T]
 PROMPT="
 %{$terminfo[bold]$fg[cyan]%}%n\
 %{$terminfo[bold]$fg[magenta]%}@\
 %{$terminfo[bold]$fg[green]%}%m \
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%} \
 ${git_info} \
-[%D{%a %b %d %Y}  %T]
+[%D{%c}]
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
 
 if [[ "$USER" == "root" ]]; then
