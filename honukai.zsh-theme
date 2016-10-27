@@ -42,8 +42,8 @@ ${git_info} \
 
 if [[ "$USER" == "root" ]]; then
 PROMPT="
-%{$terminfo[bold]$bg[yellow]%}%{$fg[cyan]%}%n%{$reset_color%} \
-%{$terminfo[bold]$fg[white]%}@\
+%{$terminfo[bold]$fg[red]%}%n%{$reset_color%}\
+%{$terminfo[bold]$fg[red]%}@\
 %{$terminfo[bold]$fg[green]%}$(box_name) \
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}\
 ${git_info} \
