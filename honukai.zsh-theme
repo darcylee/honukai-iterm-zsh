@@ -13,8 +13,8 @@ local current_dir='${PWD/#$HOME/~}'
 RC_VCS_PROMPT_PREFIX1="%{$fg[white]%}("
 RC_VCS_PROMPT_PREFIX2="%{$fg[cyan]%}"
 RC_VCS_PROMPT_SUFFIX="%{$reset_color%}"
-RC_VCS_PROMPT_DIRTY=" %{$fg_bold[red]%}x%{$reset_color%})"
-RC_VCS_PROMPT_CLEAN=" %{$fg_bold[green]%}o%{$reset_color%})"
+RC_VCS_PROMPT_DIRTY=" %{$fg_bold[red]%}x%{$reset_color%}%{$fg[white]%})%{$reset_color%}"
+RC_VCS_PROMPT_CLEAN=" %{$fg_bold[green]%}o%{$reset_color%}%{$fg[white]%})%{$reset_color%}"
 
 # Git info.
 local git_info='$(git_prompt_info)'
