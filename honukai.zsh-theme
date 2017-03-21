@@ -33,7 +33,7 @@ function get_date_time() {
 # Prompt format: \n # USER@MACHINE:DIRECTORY(git:BRANCH STATE) [TIME] \n $
 if [ $UID -eq 0 ]; then
 PROMPT="
-%{$terminfo[bold]$fg[red]%}%n@%m$fg[white]:$fg[yellow]${current_dir}%{$reset_color%} \
+%{$terminfo[bold]$fg[red]%}!!! %n$fg[magenta]@$fg[green]%m$fg[white]:$fg[yellow]${current_dir}%{$reset_color%} \
 ${git_info}  ${time_show}\
 
 %{$terminfo[bold]$fg[red]%}# %{$reset_color%}"
